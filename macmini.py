@@ -23,9 +23,9 @@ def check_price():
         send_mail()
 
 def send_mail():
-    send_mail = "mm3906078@gmail.com"
-    recive_mail = "mg3906078@gmail.com"
-    passwd = "wesdxbvyieifxzti"
+    send_mail = ""
+    recive_mail = ""
+    passwd = "email_pass"
     server = smtplib.SMTP('smtp.gmail.com',587)
     # stable connection
     server.ehlo()
